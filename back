@@ -1,0 +1,122 @@
+
+//        var web3;
+
+//        if (typeof web3 !== 'undefined') {
+//             web3 = new Web3(web3.currentProvider);
+//         } else {
+//             // set the provider you want from Web3.providers
+//             web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+//         }
+
+
+//         web3.eth.defaultAccount = web3.eth.accounts[0];
+
+//         var address_default =  web3.eth.accounts[0];
+
+//         var CoursetroContract = web3.eth.contract([
+// 	{
+// 		"constant": true,
+// 		"inputs": [],
+// 		"name": "totalSupply",
+// 		"outputs": [
+// 			{
+// 				"name": "",
+// 				"type": "uint256"
+// 			}
+// 		],
+// 		"payable": false,
+// 		"stateMutability": "view",
+// 		"type": "function"
+// 	},
+// 	{
+// 		"constant": true,
+// 		"inputs": [
+// 			{
+// 				"name": "_owner",
+// 				"type": "address"
+// 			}
+// 		],
+// 		"name": "balanceOf",
+// 		"outputs": [
+// 			{
+// 				"name": "",
+// 				"type": "uint256"
+// 			}
+// 		],
+// 		"payable": false,
+// 		"stateMutability": "view",
+// 		"type": "function"
+// 	},
+// 	{
+// 		"constant": false,
+// 		"inputs": [
+// 			{
+// 				"name": "_to",
+// 				"type": "address"
+// 			},
+// 			{
+// 				"name": "_value",
+// 				"type": "uint256"
+// 			}
+// 		],
+// 		"name": "transfer",
+// 		"outputs": [
+// 			{
+// 				"name": "",
+// 				"type": "bool"
+// 			}
+// 		],
+// 		"payable": false,
+// 		"stateMutability": "nonpayable",
+// 		"type": "function"
+// 	},
+// 	{
+// 		"anonymous": false,
+// 		"inputs": [
+// 			{
+// 				"indexed": true,
+// 				"name": "from",
+// 				"type": "address"
+// 			},
+// 			{
+// 				"indexed": true,
+// 				"name": "to",
+// 				"type": "address"
+// 			},
+// 			{
+// 				"indexed": false,
+// 				"name": "value",
+// 				"type": "uint256"
+// 			}
+// 		],
+// 		"name": "Transfer",
+// 		"type": "event"
+// 	}
+// ]);
+
+//     var Coursetro = CoursetroContract.at('0xeb12bf177d3e4a7872ba92e55b70daccd2b142a7');
+//         console.log(Coursetro);
+
+//         var eth_balance = 0
+        
+//         web3.eth.getBalance(address_default, (err, val) => {
+//             if(!err){
+//                 eth_balance = web3.fromWei(val, 'ether').toNumber();
+//                 console.log(eth_balance);
+//             }
+//             console.log(err);
+//         });
+
+        // Coursetro.getInstructor(function(error, result){
+        //     if(!error)
+        //         {
+        //             $("#instructor").html(result[0]+' ('+result[1]+' years old)');
+        //             console.log(result);
+        //         }
+        //     else
+        //         console.error(error);
+        // });
+
+        // $("#button").click(function() {
+        //     Coursetro.setInstructor($("#name").val(), $("#age").val());
+        // });
