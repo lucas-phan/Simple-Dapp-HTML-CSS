@@ -1,9 +1,7 @@
+Build simple Dapp with HTML, CSS and Javascript
+
+Install
 1. Install metamask plugin 
 2. Choose Testnet: Rinkeby
-3. Import two account test to metamask:
-    - Private key account 1: A3D97F9E3A1A4D542CC4E3AAADF310F5CD3319EF3AA76FE509CE3D5A88E1652E
-    - Private key account 2: C6DB2E4FF50CF3117672B7B5B7E538927618F35A63317854DD0870E78C4324FB
-
-    - Add token with address: 0x68cf637693886e3684f5dfec28761cc900ca052c
-4. Run "npm install" install all packages in projects
-5. run file index.html
+3. Your wallet must have ETH, You can to get more ETH at here: https://faucet.rinkeby.io/ 
+4. run file index.html in localhost
